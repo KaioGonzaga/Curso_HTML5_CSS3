@@ -13,6 +13,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -27,7 +28,13 @@
             background-color: lightgray;
         }
 
-        tbody > tr:nth-child(2n) {     /* ODD e EVEN linha ímpar e linha par  */
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: #383838;
+        }
+
+        tbody > tr:nth-child(odd) {     /* ODD e EVEN linha ímpar e linha par  */
             background-color: lightgray;
         }
 
