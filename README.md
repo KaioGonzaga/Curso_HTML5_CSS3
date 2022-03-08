@@ -1,3 +1,3 @@
 # Curso_HTML5_CSS3
 
-Adicionando README !
+Curso da plataforma Curso em Vídeo de HTML e CSS  
